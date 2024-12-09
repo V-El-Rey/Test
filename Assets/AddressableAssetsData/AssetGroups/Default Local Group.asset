@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 5b9c38e7058dc984a9a0f99c07c466d3
+  m_SerializeEntries:
+  - m_GUID: 052faaac586de48259a63d0c4782560b
+    m_Address: Assets/InputSystem_Actions.inputactions
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18b4a6e43705e1c44b34c687ac9eb5e8
+    m_Address: Assets/App/Prefabs/Units/Enemies/Patrol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d69f0383ab60084faeef4c303763bc7
+    m_Address: Assets/App/Scenes/AdditionalScenes/GameSceneEnvironment.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3085f5e50ba5fef458ce147c9ff12eeb
+    m_Address: Assets/App/Prefabs/Units/PlayerCamera.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 344f057e66b75684399136d85d6bdc75
+    m_Address: Assets/App/Prefabs/Units/Enemies/Shooter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43d2318c01eddf542af9823e2270fe06
+    m_Address: Assets/App/Prefabs/Units/Player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82041ea94e4a27b4faf43cfb176e4182
+    m_Address: Assets/App/Scenes/Empty.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85664f2157c170b409fdd25d9545d2c0
+    m_Address: Assets/App/Scenes/GameScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f7b871df69a98e4ca7c6005b0b676a5
+    m_Address: HUDContextView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a198ca19d7ab86a4f8641a682531e144
+    m_Address: Assets/App/Configs/GameConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2b89ed3a2e239145b4af13d429432ba
+    m_Address: Assets/App/Prefabs/Units/Enemies/Hunter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b65e0d00ad290ae41999997a8b86401a
+    m_Address: Assets/App/Scenes/MainMenu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd90be99ae80e034f8003f3b724a5fdf
+    m_Address: MainMenuContextView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb431733fcfd2b743947cb448fa636ed
+    m_Address: Assets/App/Prefabs/Units/Enemies/Bullet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f1b0def030ac3304383555543a574ebc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 99853f34df21c3d47b93695e23510406, type: 2}
+    - {fileID: 11400000, guid: 3bea12563c02b3046ae256332b537534, type: 2}

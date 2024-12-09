@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f84f6925d68e2234085429095e77213e, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  EnvironmentAssetDataPath: Assets/App/Scenes/AdditionalScenes/GameSceneEnvironment.unity
+  PlayerStartPosition: {x: 0, y: 0, z: 0}
+  PlayerSpeed: 10
+  PlayerHealth: 100
+  EnemyUnits:
+  - StartPosition: {x: 5, y: 0, z: 3}
+    AttackType: {fileID: 11400000, guid: 595f9288bbaa39c47aa705c736c87ecb, type: 2}
+    MovementType: {fileID: 11400000, guid: ceeb15e0a5ae80943be14a60dbe9e179, type: 2}
+    UnitSpeed: 3
+  - StartPosition: {x: -5, y: 0, z: 3}
+    AttackType: {fileID: 11400000, guid: 36c82f99802fd154184220a33618c10f, type: 2}
+    MovementType: {fileID: 11400000, guid: 45acc0c203858f649b90e69dfd1a4f70, type: 2}
+    UnitSpeed: 5
+  - StartPosition: {x: -10, y: 0, z: -5}
+    AttackType: {fileID: 11400000, guid: c8ed491831591d146bfdca5177c9ef7e, type: 2}
+    MovementType: {fileID: 11400000, guid: c2358453a7185f643bdde9ffaf4adb50, type: 2}
+    UnitSpeed: 2
